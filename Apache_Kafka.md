@@ -14,7 +14,7 @@ For stream processing, Kafka offers the Streams API that allows writing Java app
 > - **Streams API** – This API converts the input streams to output and produces the result.
 > - **Admin API** – used to manage Kafka topics, brokers and other Kafka objects.
  
-    The consumer and producer APIs build on top of the Kafka messaging protocol and offer a reference implementation for Kafka consumer and producer clients in Java. The underlying messaging protocol is a binary protocol that developers can use to write their own consumer or producer clients in any programming language. This unlocks Kafka from the Java Virtual Machine (JVM) eco-system. A list of available non-Java clients is maintained in the Apache Kafka wiki.
+The consumer and producer APIs build on top of the Kafka messaging protocol and offer a reference implementation for Kafka consumer and producer clients in Java. The underlying messaging protocol is a binary protocol that developers can use to write their own consumer or producer clients in any programming language. This unlocks Kafka from the Java Virtual Machine (JVM) eco-system. A list of available non-Java clients is maintained in the Apache Kafka wiki.
 
 **Connect API**
 
