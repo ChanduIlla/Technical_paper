@@ -9,12 +9,12 @@ Kafka stores key-value messages that come from arbitrarily many processes called
 
 For stream processing, Kafka offers the Streams API that allows writing Java applications that consume data from Kafka and write results back to Kafka.
 
->There are five major APIs in Kafka: 
-> - **Producer API** – Permits an application to publish streams of records.
-> - **Consumer API** – Permits an application to subscribe to topics and processes streams of records.
-> - **Connector API** – Executes the reusable producer and consumer APIs that can link the topics to the existing applications.
-> - **Streams API** – This API converts the input streams to output and produces the result.
-> - **Admin API** – used to manage Kafka topics, brokers and other Kafka objects.
+There are five major APIs in Kafka: 
+- **Producer API** – Permits an application to publish streams of records.
+- **Consumer API** – Permits an application to subscribe to topics and processes streams of records.
+- **Connector API** – Executes the reusable producer and consumer APIs that can link the topics to the existing applications.
+- **Streams API** – This API converts the input streams to output and produces the result.
+- **Admin API** – used to manage Kafka topics, brokers and other Kafka objects.
  
 The consumer and producer APIs build on top of the Kafka messaging protocol and offer a reference implementation for Kafka consumer and producer clients in Java. The underlying messaging protocol is a binary protocol that developers can use to write their own consumer or producer clients in any programming language. This unlocks Kafka from the Java Virtual Machine (JVM) eco-system. A list of available non-Java clients is maintained in the Apache Kafka wiki.
 
@@ -29,3 +29,7 @@ Kafka Streams (or Streams API) is a stream-processing library written in Java. I
 **Version compatibility**
 
 Up to version 0.9.x, Kafka brokers are backward compatible with older clients only. Since Kafka 0.10.0.0, brokers are also forward compatible with newer clients. If a newer client connects to an older broker, it can only use the features the broker supports. For the Streams API, full compatibility starts with version 0.10.1.0: a 0.10.1.0 Kafka Streams application is not compatible with 0.10.0 or older brokers. 
+
+**References**
+- https://www.confluent.io/lp/apache-kafka
+- https://en.wikipedia.org/wiki/Apache_Kafka
