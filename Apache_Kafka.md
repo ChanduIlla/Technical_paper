@@ -1,5 +1,4 @@
-## Title
-# Apache Kafka
+## Title -  # Apache Kafka
 Apache Kafka is a framework implementation of a software bus using stream-processing. Apache Kafka is an open-source distributed event streaming platform used by thousands of companies for high-performance data pipelines, streaming analytics, data integration, and mission-critical applications.
 
 
